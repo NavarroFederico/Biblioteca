@@ -35,7 +35,7 @@ public class AutorServicio {
         autorRepositorio.save(autor);
     }
 
-    public List<Autor> listarLibros() {
+    public List<Autor> listarAutores() {
         List<Autor> autores = new ArrayList();
         autores = autorRepositorio.findAll();//findAll() encuentra todos los autores que esten en libroRepositorio
 

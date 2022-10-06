@@ -26,7 +26,7 @@ public class EditorialControlador {
     @Autowired
     private EditorialServicio editorialServicio;
     
-    @GetMapping("/registrar") //localhost:8080/autor/registrar
+    @GetMapping("/registrar") //localhost:8080/editorial/registrar
     public String registrar(){
         return "editorial_form.html";
     }
